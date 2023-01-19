@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Space+Mono&display=swap");
+
+.fontNav {
+  margin-left: 2vw;
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.ss {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 18vh;
+}
+
+.img {
+  height: 447.43px;
+  width: 539.22px;
+}
+
+.text {
+  max-width: 586px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  font-size: 2.1rem;
+}
+.text1 {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  justify-content: space-around;
+  max-width: 381px;
+  font-size: 1.5rem;
+}
+
+button {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  margin-top: 20px;
+  width: 216px;
+  height: 68px;
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+footer {
+  margin-top: 5vh;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #bdbdbd;
+}
+
+@media screen and (max-width: 480px) {
+  .ss {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+  }
+
+  .img {
+    height: 238px;
+    width: 286px;
+  }
+  .text {
+    max-width: 350px;
+    font-size: 1.3rem;
+  }
+  .text1 {
+    max-width: 328px;
+    font-size: 1.2rem;
+  }
+
+  button {
+    margin-top: 20px;
+    margin-left: 12vw;
+  }
+}
